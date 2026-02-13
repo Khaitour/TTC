@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>التقي للتجارة | Taghi Trading Co., Ltd</title>
+<style>
+:root {
+    --primary-color: #C8102E;
+    --text-color: #333;
+    --bg-color: #fff;
+}
+body { margin:0; font-family: 'Arial', sans-serif; background-color: var(--bg-color); color: var(--text-color); direction: rtl; }
+header { display:flex; justify-content: space-between; align-items:center; padding:20px 40px; background:#fff; border-bottom:1px solid #eee; }
+header img { height:50px; }
+.lang-switch { cursor:pointer; color: var(--primary-color); font-weight:bold; }
+nav a { margin: 0 15px; text-decoration:none; color: var(--text-color); font-weight:bold; }
+nav a:hover { color: var(--primary-color); }
+
+section { padding:60px 20px; max-width:1200px; margin:0 auto; }
+
+.hero { display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:url('https://images.unsplash.com/photo-1599933113457-2aa995bd3f1e?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover; padding:100px 20px; color:#fff; }
+.hero h1 { font-size:2em; color:#fff; margin:0; background-color:rgba(200,24,46,0.7); padding:10px 20px; border-radius:5px; }
+.hero p { font-size:1.2em; margin:10px 0; background-color:rgba(0,0,0,0.5); padding:5px 10px; border-radius:3px; }
+
+h2 { color: var(--primary-color); margin-bottom:20px; }
+.services, .products { display:flex; flex-wrap:wrap; justify-content:space-around; }
+.card { background:#fff; border:1px solid #eee; border-radius:8px; padding:20px; margin:10px; flex:1 1 250px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+.card i { font-size:2em; margin-bottom:10px; color: var(--primary-color); }
+
+footer { text-align:center; padding:40px 20px; background:#f5f5f5; font-size:0.9em; }
+footer a { color: var(--primary-color); text-decoration:none; margin:0 10px; }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="https://via.placeholder.com/150x50?text=TTC" alt="TTC Logo">
+  <div>
+    <span class="lang-switch" onclick="switchLang()">EN / AR</span>
+  </div>
+  <nav>
+    <a href="#about">عن الشركة</a>
+    <a href="#services">الخدمات</a>
+    <a href="#products">المنتجات</a>
+    <a href="#contact">تواصل معنا</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1 id="hero-title">جسر موثوق لتجارة البضائع بين الصين وموريتانيا</h1>
+  <p id="hero-subtitle">Your Bridge to the Chinese Market</p>
+  <a href="#contact" style="margin-top:20px; padding:10px 20px; background:var(--primary-color); color:#fff; border-radius:5px; text-decoration:none;">تواصل معنا</a>
+</section>
+
+<section id="about">
+  <h2 id="about-title">عن الشركة</h2>
+  <p id="about-text">
+    التقي للتجارة شركة رائدة في تقديم حلول التوريد والتجارة الدولية من Yiwu، الصين إلى موريتانيا، مختصة في الشحن الجوي والبحري لجميع أنواع البضائع، مع التركيز على الاحترافية والموثوقية.
+  </p>
+  <h3 id="vision-title">الرؤية</h3>
+  <p id="vision-text">أن نصبح الجسر الموثوق لتجارة البضائع بين الصين وموريتانيا مع توسيع نطاقنا للتجارة العالمية.</p>
+  <h3 id="mission-title">الرسالة</h3>
+  <p id="mission-text">تقديم حلول توريد شاملة، شحن سريع وآمن، واستشارات دقيقة للاستيراد والتصدير، مع الالتزام بالشفافية والجودة.</p>
+</section>
+
+<section id="services">
+  <h2 id="services-title">الخدمات</h2>
+  <div class="services">
+    <div class="card">
+      <i>✈️</i>
+      <h3>التوريد الجوي</h3>
+      <p>توريد سريع وفعال لجميع أنواع البضائع من الصين.</p>
+    </div>
+    <div class="card">
+      <i>🚢</i>
+      <h3>الشحن البحري</h3>
+      <p>نقل البضائع بكميات كبيرة بتكلفة اقتصادية وموثوقة.</p>
+    </div>
+    <div class="card">
+      <i>📊</i>
+      <h3>استشارات الاستيراد والتصدير</h3>
+      <p>دعم العملاء في إدارة سلسلة التوريد والإجراءات الجمركية.</p>
+    </div>
+  </div>
+</section>
+
+<section id="products">
+  <h2 id="products-title">المنتجات</h2>
+  <div class="products">
+    <div class="card"><p>جميع أنواع البضائع المستوردة من الصين</p></div>
+    <div class="card"><p>المنتجات العامة للتجارة</p></div>
+    <div class="card"><p>أمثلة على منتجات Yiwu</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 id="contact-title">تواصل معنا</h2>
+  <p>WhatsApp: <a href="https://wa.me/8613454988247" target="_blank">+86 134 5498 8247</a> | <a href="https://wa.me/22246569200" target="_blank">+222 4656 9200</a></p>
+  <p>WeChat: <a href="#">wxid_r6ra4ppu6y5j12</a></p>
+  <p>العنوان: Office 601, No. 86 Cultural Market, Choucheng Subdistrict, Yiwu City, Zhejiang Province, China</p>
+</section>
+
+<footer>
+  &copy; 2026 TTC - التقي للتجارة. جميع الحقوق محفوظة.
+</footer>
+
+<script>
+function switchLang() {
+  const lang = document.documentElement.lang === 'ar' ? 'en' : 'ar';
+  document.documentElement.lang = lang;
+  if(lang === 'en') {
+    document.body.dir = 'ltr';
+    document.getElementById('hero-title').innerText = 'Your Bridge to the Chinese Market';
+    document.getElementById('hero-subtitle').innerText = '';
+    document.getElementById('about-title').innerText = 'About Us';
+    document.getElementById('about-text').innerText = 'Taghi Trading Co., Ltd is a leading provider of sourcing and international trade solutions from Yiwu, China to Mauritania, specializing in air and sea freight for all types of goods, focusing on professionalism and reliability.';
+    document.getElementById('vision-title').innerText = 'Vision';
+    document.getElementById('vision-text').innerText = 'To become the trusted bridge for goods trade between China and Mauritania while expanding globally.';
+    document.getElementById('mission-title').innerText = 'Mission';
+    document.getElementById('mission-text').innerText = 'Providing comprehensive sourcing solutions, fast and secure shipping, and accurate import-export consulting, with commitment to transparency and quality.';
+    document.getElementById('services-title').innerText = 'Services';
+    document.getElementById('products-title').innerText = 'Products';
+    document.getElementById('contact-title').innerText = 'Contact Us';
+  } else {
+    document.body.dir = 'rtl';
+    document.getElementById('hero-title').innerText = 'جسر موثوق لتجارة البضائع بين الصين وموريتانيا';
+    document.getElementById('hero-subtitle').innerText = 'Your Bridge to the Chinese Market';
+    document.getElementById('about-title').innerText = 'عن الشركة';
+    document.getElementById('about-text').innerText = 'التقي للتجارة شركة رائدة في تقديم حلول التوريد والتجارة الدولية من Yiwu، الصين إلى موريتانيا، مختصة في الشحن الجوي والبحري لجميع أنواع البضائع، مع التركيز على الاحترافية والموثوقية.';
+    document.getElementById('vision-title').innerText = 'الرؤية';
+    document.getElementById('vision-text').innerText = 'أن نصبح الجسر الموثوق لتجارة البضائع بين الصين وموريتانيا مع توسيع نطاقنا للتجارة العالمية.';
+    document.getElementById('mission-title').innerText = 'الرسالة';
+    document.getElementById('mission-text').innerText = 'تقديم حلول توريد شاملة، شحن سريع وآمن، واستشارات دقيقة للاستيراد والتصدير، مع الالتزام بالشفافية والجودة.';
+    document.getElementById('services-title').innerText = 'الخدمات';
+    document.getElementById('products-title').innerText = 'المنتجات';
+    document.getElementById('contact-title').innerText = 'تواصل معنا';
+  }
+}
+</script>
+
+</body>
+</html>
